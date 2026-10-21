@@ -163,7 +163,7 @@ musicBtn.addEventListener("click", async () => {
   if (bgMusic.paused) {
     try {
       await bgMusic.play();
-      musicBtn.textContent = "♫ Tắt nhạc";
+      musicBtn.textContent = "♫ Tắt nhạc";ss
     } catch (error) {
       musicBtn.textContent = "Không phát được nhạc";
       console.error("Không thể phát nhạc:", error);
